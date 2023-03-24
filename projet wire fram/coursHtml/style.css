@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.machine{
+   margin-top: 10PX;
+   margin-left: 5px;
+   margin-bottom: 10px;
+   margin :right 5px;
+}
+div{
+    height: 150px; width: 150px; background-color: rgb(59, 41, 160);
+}
+ 
+*{
+    margin: 20px * 50px ;
+}
+

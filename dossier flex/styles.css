@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height: 250px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(26, 26, 135) 0%, rgb(137, 118, 168) 45%, rgb(106, 78, 176) 100%);
+    /* padding-top:10%*/
+}
+.title{
+    display: table-cell;
+    width: 100vw;
+    height: 250px;
+    vertical-align: middle;
+}
+header h1{
+    color: #5139a9;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+.contentbox{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* on selectionne deux chgoses*/
+.contentBox h2,
+.contentBox p{
+    margin-left: 20px;
+}
+
+.contentbox h3{
+    margin-left: 50px;
+}
+.container{
+    height: 100px;
+    width: 250px;
+    border: solid 1px #000;
+    margin: auto;
+    background: linear-gradient(90deg, rgb(141, 141, 184) 0%, rgb(77, 108, 192) 45%, rgb(130, 44, 177) 100%);
+}
+.box{
+    height: 20px;
+    width: 20px;
+    background: rgb(127, 83, 197);
+    border: solid 1px rgb(48, 95, 195);
+}
+.ex1{
+    display: flex;
+}
+
+.ex2{
+    display: flex;
+    align-items: center;
+}
+.ex2a{
+    display: flex;
+    align-items: start;
+}
+.ex2b{
+    display: flex;
+    align-items:flex-end;
+}
+.ex3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ex3a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ex3b{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ex3c{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ex3d{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ex3e{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ex4{
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+}
+.ex4a{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+}
+.ex4b{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column-reverse;
+}
+.ex4c{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:row-reverse;
+}
+.ex5{
+    display: flex;
+    align-items:flex-end;
+    justify-content:right;
+    flex-direction: row-reverse;
+}
+

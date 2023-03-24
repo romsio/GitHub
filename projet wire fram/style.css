@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.logo{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    
+}
+.logo h1 {
+    margin: 0em 2em 0.5em;
+}
+.logo p {
+    margin: 0 1em;
+}
+nav, nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul {
+    width: 70%;
+    list-style: none;
+    
+}
+li a{
+    text-decoration: none;
+    color: #fafafa;
+}
+nav{
+    background: #0090B2;
+    padding: 0.5em 0;
+}
+input{
+    background: #0090B2;
+    border: 0;
+    padding: 0.2em;
+}
+input::placeholder{
+    color: #fafafa;
+}
+/* 
+i {} Cible toutes les icones font awesome
+.fa-solid {} cible toutes les icones qui sont dans la catégorie solid
+.fa-magnifying-glass ciblera uniquement la loupe
+*/
+.fa-magnifying-glass {
+    color: #0090B2;
+}
+label{
+    background: #fafafa;
+    padding: 0.1em 0.2em;
+}
+.container {
+    max-width: 90%;
+    margin: 3em auto;
+}
+.article1 {
+    display: flex;
+    align-items: center;
+    margin: 2.0ex;
+    text-align: center;
+}
+section, aside {
+    background: #0090B2;
+    padding: 0.3em;
+}
+h2 {
+    background: #0090B2;
+    color: #fafafa;
+}
+article {
+    background: #fafafa;
+}
+iframe{
+    max-width: 90%;
+    margin: 1em;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 12 1fr;
+    grid-gap: 20px;
+}
+section {
+    grid-column: 1 / 8;
+    grid-row: 1 / 5;
+}
+aside {
+    grid-column: 8 / 12;
+    text-align: center;
+}
+aside:first-child {
+    grid-row: 1 / 2;
+}
+aside:last-child{
+    grid-row: 2 / 4;
+}
+.gallery{
+    display: flex;
+    padding: 0.5em;
+}
+.gallery div{
+    margin: 0.5em;
+    width: 30%;
+}
+h3 {
+    margin-top: 0.5em;
+}
+.fa-star {
+    color: #0090B2;
+}
+.fa-star:last-child{
+    color:#AFDBDA;
+}
