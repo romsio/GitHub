@@ -78,31 +78,6 @@ document.querySelector("div").appendChild(exo);
 // affichage.innerHTML = maCollection1;
 // document.querySelector("div").appendChild(affichage);
   
-
-
-
-let affichage = new Map();
-affichage.set(maCollection);
-console.log(affichage);
-let affichage1 = document.createElement("h2");
-affichage1.innerHTML = affichage;
-document.querySelector("div").appendChild(affichage1);
-
-/*exercice map*/
-const results = querySelector('results')
-
-let jeux1= new jeux("worl of tank","Playstation5","Xbox",2010);
-let jeux2= new jeux("Splinter Cell","Playstation5",2022);
-let jeux3= new jeux("fynall fantasy VIII",Playstation,1998);
-let jeux4= new jeux("Mario kart","Super Nintendo 64",1996);
-let jeux5= new jeux("Super Mario 64","Super Nintendo",1996);
-let jeux6= new jeux("Super Mario World"," Super Nintendo",1987);
-let jeux7= new jeux("Call of dutty",2003);
-let jeux8= new jeux("Street Fighter",1987);
-let jeux9= new jeux("Sonic Frontiers","PS4","PS5","Xbox",2022);
-let jeux10= new jeux("resident evil4",2023);
-
-
 /* correction exercice 1 du formateur
 const results = document.querySelector('.results');
 
@@ -150,6 +125,88 @@ var courses = {
    }
 };*/
 // suite de l'exercice
-const affichage1 =[jeux1,jeux2,jeux3,jeux4,jeux5,jeux6,jeux7,jeux8,jeux9,jeux10 ];
 
 
+
+
+
+/*let affichage = new Map();
+affichage.set(maCollection);
+console.log(affichage);
+let affichage1 = document.createElement("h2");
+affichage1.innerHTML = affichage;
+document.querySelector("div").appendChild(affichage1);
+
+/*exercice map*/
+
+
+let jeux1= new jeux("world of tank","Playstation5","Xbox",2010);
+let jeux2= new jeux("Splinter Cell","Playstation5",2022);
+let jeux3= new jeux("fynall fantasy VIII",Playstation,1998);
+let jeux4= new jeux("Mario kart","Super Nintendo 64",1996);
+let jeux5= new jeux("Super Mario 64","Super Nintendo",1996);
+let jeux6= new jeux("Super Mario World"," Super Nintendo",1987);
+let jeux7= new jeux("Call of dutty",Playstation,2003);
+let jeux8= new jeux("Street Fighter",1987);
+let jeux9= new jeux("Sonic Frontiers","PS4","PS5","Xbox",2022);
+let jeux10= new jeux("resident evil4",2023);
+
+const results1 = querySelector('.results');
+function jeux1(world,of,tank,Playstation5,Xbox,2010){
+this.world,of,tank = world,of,tank;
+this.Playstation5,xbox = Playstation5,Xbox;
+this.2010 = 2010;
+}
+const results2 = querySelector('.results')
+function jeux2(Splinter_Cell,Playstation5,2022){
+this.Splinter_Cell = Splinter_Cell;
+this.Playstation5 = Playstation5;
+this.2022 = 2022;
+}
+const result3 = querySelector('.results')
+function jeux3(fynall_fantasy_VIII,Playstation,1998){
+this.fynall_fantasy_VIII = fynall_fantasy_VIII;
+this.Playstation = Playstation;
+this.1998 = 1998;
+}
+const results4 = querySelector('.results')
+function jeux4(Playstation,1996){
+this.Mario_kart = Mario_kart;
+this.Super_Nintendo_64 = Super_Nintendo_64;
+this.1996 = 1996;
+}
+const results5 = querySelector('.results')
+function jeux5(Playstation,1996){
+this.Super_Mario_64 = Super_Mario_64;
+this.Super_Nintendo = Super_Nintendo;
+this.1996 = 1996;
+}
+const results6 = querySelector('.results')
+function jeux6(Playstation,1987){
+this.Super_Mario_World = Super_Mario_World;
+this.Super_Nintendo = Super_Nintendo;
+this.1987 = 1987;
+}
+const results7 = querySelector('.results')
+function jeux7(Playstation,2003){
+this.Call_of_dutty = Call_of_dutty;
+this.Playstation = Playstation;
+this.2003 = 2003;
+}
+const results8 = querySelector('.results')
+function jeux8(Playstation,1987){
+this.Street_Fighter = Street_Fighter;
+this.Super_Nintendo = Super_Nintendo;
+this.1987 = 1987;
+}
+const result9 = querySelector('.results')
+function jeux9(Playstation,2022){
+this.Sonic_Frontiers = Sonic_Frontiers;
+this.PS4,PS5,Xbox = PS4,PS5,Xbox ;
+this.2022 = 2022;
+}
+const result10 = querySelector('.results')
+function jeux10(Playstation,2023){
+this.resident_evil4 = resident_evil4;
+this.PS4,PS5,Xbox = PS4,PS5,Xbox ;
+this.2023 = 2023;
